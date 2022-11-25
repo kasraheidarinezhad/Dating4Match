@@ -1,0 +1,419 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="HomeIn.master.cs" Inherits="HomeIn" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <title> Free Matrimonial Site</title>
+        <meta content='Free Matrimonial site' name='description'/>
+<meta content='Free Matrimonial Site' name='keywords'/>
+    <link href="CSS/style.css" rel="stylesheet" type="text/css" />  
+    
+</head>
+<body>
+    <form id="form1" runat="server">
+   <table width="100" border="0" align="center" cellpadding="0" cellspacing="0" class="outer">
+  <tr>
+    <td  style="height: 42px; text-align: right;">
+        <table style="width: 962px">
+            <tr>
+                <td style="width: 3px; height: 36px;" class="name">
+                    <span style="font-size: 32pt; font-family: Algerian">
+                    <span style="font-size: 48pt">M</span>eera</span></td>
+                <td style="width: 16242px; height: 36px;" align="left" valign="bottom" >
+                    Get the Perfect Groom / Bride.</td>
+                <td align="left" style="width: 634px; height: 36px; text-align: right" valign="top">
+                    <table style="width: 211px">
+                        <tr>
+                            <td>
+                                &nbsp;<asp:Label ID="lbldisplay" runat="server" Font-Bold="True"></asp:Label></td>
+                        </tr>
+                        <tr>
+                            <td >
+                                <asp:Label ID="lblprofile" runat="server" Font-Bold="True"></asp:Label></td>
+                        </tr>
+                        <tr>
+                            <td >
+                                <asp:LinkButton ID="LinkButton4" runat="server" Font-Bold="True" ForeColor="#9B0033"
+                                    OnClick="LinkButton4_Click1">LogOut</asp:LinkButton>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+    </td>
+  </tr>
+  <tr>
+    <td><table width="923" border="0" align="center" cellpadding="0" cellspacing="0">
+      <tr>
+        <td id="rc1"></td>
+        <td bgcolor="#CD3164"><table border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td class="toplinks"><a href="Main.aspx">Homepage</a></td>
+			<td class="sap">|</td>
+            <td class="toplinks"><a href="#">About us</a></td>
+			<td class="sap">|</td>
+            <td class="toplinks"><a href="ChatHome.aspx">chat</a></td>
+			<td class="sap">|</td>
+            <td class="toplinks"><a href="Message.aspx">Message</a></td>
+			<td class="sap">|</td>
+            <td class="toplinks"><a href="contactus.aspx">Contact us</a></td>
+          </tr>
+        </table></td>
+        <td id="rc2"></td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td style="height: 16px">&nbsp;</td>
+  </tr>
+  <tr>
+    <td valign="top"><table width="923" border="0" align="center" cellpadding="0" cellspacing="0">
+      <tr>
+        <td valign="top" id="left"><table width="194" border="0" align="center" cellpadding="0" cellspacing="0">
+              <tr>
+                <td height="3" style="width: 138px">
+                    </td>
+              </tr>
+            <tr>
+                <td height="3" style="width: 138px">
+                    </td>
+            </tr>
+              <tr>
+                <td height="20" class="cat-head" style="text-align: center; width: 138px;">
+                                <asp:Label ID="lblname" runat="server" ForeColor="#9B0033"></asp:Label></td>
+              </tr>
+              <tr>
+                <td class="leftlinks" style="width: 138px">
+                    <table style="width: 165px">
+                        <tr>
+                            <td colspan="3" style="height: 26px" align="center">
+                                <asp:Image ID="imgphotos" runat="server" Width="111px"  /></td>
+                        </tr>
+                        <tr>
+                            <td colspan="3" style="height: 26px">
+                                &nbsp;<asp:FileUpload ID="filephotos" runat="server" CssClass="inputt" Font-Size="XX-Small"
+                                    Height="21px" Visible="False" Width="144px" /></td>
+                        </tr>
+                        <tr>
+                            <td colspan="3" style="text-align: center">
+                                <asp:LinkButton ID="lnkphotos" runat="server" Font-Bold="True" ForeColor="#004000"
+                                    OnClick="lnkphotos_Click">Change Photos</asp:LinkButton></td>
+                        </tr>
+                        <tr>
+                            <td colspan="3" style="text-align: center; height: 28px;">
+                                <asp:HyperLink ID="HyperLink2" runat="server" ForeColor="#9B0033" NavigateUrl="~/Message.aspx">Message</asp:HyperLink></td>
+                        </tr>
+                        <tr>
+                            <td colspan="3" style="text-align: center;">
+                                <asp:HyperLink ID="HyperLink1" runat="server" ForeColor="#9B0033" NavigateUrl="~/Alert.aspx">Profile Alert</asp:HyperLink></td>
+                        </tr>
+                        <tr>
+                            <td colspan="3" style="text-align: center;">
+                                <asp:LinkButton ID="lnkbtnviewprofile" runat="server" OnClick="LinkButton4_Click" ForeColor="#9B0033">View Profile</asp:LinkButton></td>
+                        </tr>
+                        <tr>
+                            <td colspan="3" style="text-align: center">
+                                <asp:HyperLink ID="linkprofile" runat="server" ForeColor="#9B0033" NavigateUrl="~/UserProfile.aspx">Edit Profile</asp:HyperLink></td>
+                        </tr>
+                        <tr>
+                            <td colspan="3" style="text-align: center">
+                                <asp:HyperLink ID="HyperLink3" runat="server" ForeColor="#9B0033" NavigateUrl="~/MyAccount.aspx">My Account</asp:HyperLink></td>
+                        </tr>
+                        <tr>
+                            <td colspan="3" style="text-align: center">
+                                <asp:HyperLink ID="HyperLink5" runat="server" ForeColor="#9B0033" NavigateUrl="~/Password.aspx">Change Password</asp:HyperLink></td>
+                        </tr>
+                        <tr>
+                            <td colspan="3" style="text-align: center">
+                                <asp:HyperLink ID="HyperLink6" runat="server" Font-Bold="True" ForeColor="#004000"
+                                    NavigateUrl="~/ChatHome.aspx">ChatRoom</asp:HyperLink></td>
+                        </tr>
+                    </table>
+                <%--</a>--%></td>
+              </tr>
+			  <tr>
+			    <td class="cat-head" style="width: 138px; text-align: center; height: 24px;">
+                    Latest Registered</td>
+		      </tr>
+			  <tr>
+                <td class="leftlinks" style="width: 138px; text-align: left">
+                    <asp:DataList ID="dlistadv" runat="server" DataKeyField="uid" Height="200px" OnItemCommand="dlistadv_ItemCommand">
+                        <ItemTemplate>
+                            <table align="center" border="0" cellpadding="0" cellspacing="0" style="height: 13px"
+                                width="194">
+                                <tr>
+                                    <td class="cat-head" style="height: 1px; text-align: center">
+                                        <asp:Label ID="lblpname" runat="server" CssClass="inputt" Text='<%#Eval("Fname") %>'></asp:Label>
+                                        &nbsp;<asp:Label ID="lbllname" runat="server" CssClass="inputt" Text='<%# Eval("Lname") %>'></asp:Label></td>
+                                </tr>
+                                <tr>
+                                    <td class="leftlinks" rowspan="8" style="height: 1px; text-align: center">
+                                        <table>
+                                            <tr>
+                                                <td class="inputt" rowspan="3" style="width: 100px">
+                                                    <asp:Image ID="Image1" runat="server"  Height="80px" ImageUrl='<%#Eval("Image") %>'
+                                                        Width="64px" /></td>
+                                                <td class="inputt" style="width: 100px">
+                                                    <span style="font-size: 8pt">Age -</span>
+                                                    <asp:Label ID="lblpage" runat="server" CssClass="inputt" Font-Size="8pt" Text='<%# Eval("Age") %>'></asp:Label></td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width: 100px">
+                                                    <asp:Label ID="lblcast" runat="server" CssClass="inputt" Font-Size="8pt" Text='<%# Eval("Religion") %>'></asp:Label></td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width: 100px">
+                                                    <asp:LinkButton ID="btnpview" runat="server" CausesValidation="False" CommandName="View"
+                                                        CssClass="inputt" Font-Size="9pt">View Profile</asp:LinkButton></td>
+                                            </tr>
+                                        </table>
+                                       
+                                    </td>
+                                </tr>
+                                <tr>
+                                </tr>
+                                <tr>
+                                </tr>
+                                <tr>
+                                </tr>
+                                <tr>
+                                </tr>
+                                <tr>
+                                </tr>
+                                <tr>
+                                </tr>
+                                <tr>
+                                </tr>
+                            </table>
+                        </ItemTemplate>
+                    </asp:DataList></td>
+              </tr>
+
+
+          </table></td>
+        <td valign="top" style="width: 687px"><table width="707" border="0" align="right" cellpadding="0" cellspacing="0">
+          <tr>
+            <td  background="images/beauty2.jpg" style="height: 116px" align="left" valign="top" >
+                <table style="width: 377px" background="images/bg.jpg">
+                    <tr>
+                        <td class="box-head" colspan="4">
+                            Search for a Perfect Partner</td>
+                    </tr>
+                    <tr>
+                        <td class="form-txt" style="width: 67px;">
+                            Search For</td>
+                        <td style="width: 120px">
+                                <asp:DropDownList ID="drpsearch" runat="server" CssClass="input">
+                                    <asp:ListItem Value="FEMALE">Bride</asp:ListItem>
+                                    <asp:ListItem Value="MALE">Groom</asp:ListItem>
+                                </asp:DropDownList></td>
+                        <td class="form-txt" style="width: 72px">
+                            Education</td>
+                        <td style="width: 100px">
+                                <asp:DropDownList ID="drpeducation" runat="server" Width="110px" CssClass="input">
+                                    <asp:ListItem>ALL</asp:ListItem>
+                                    <asp:ListItem>Primary</asp:ListItem>
+                                    <asp:ListItem>Secondary</asp:ListItem>
+                                    <asp:ListItem>Higher Secondary</asp:ListItem>
+                                    <asp:ListItem>Diploma</asp:ListItem>
+                                    <asp:ListItem>Graduate</asp:ListItem>
+                                    <asp:ListItem>Post Graduate</asp:ListItem>
+                                    <asp:ListItem>Doctorate</asp:ListItem>
+                                </asp:DropDownList></td>
+                    </tr>
+                    <tr>
+                        <td class="form-txt" style="width: 67px">
+                            Age</td>
+                        <td align="left" style="width: 120px" class="form-txt">
+                                <asp:DropDownList ID="drpagefrom" runat="server" Width="53px" CssClass="input">
+                                    <asp:ListItem>18</asp:ListItem>
+                                    <asp:ListItem>19</asp:ListItem>
+                                    <asp:ListItem>20</asp:ListItem>
+                                    <asp:ListItem>21</asp:ListItem>
+                                    <asp:ListItem>22</asp:ListItem>
+                                    <asp:ListItem>23</asp:ListItem>
+                                    <asp:ListItem>24</asp:ListItem>
+                                    <asp:ListItem>25</asp:ListItem>
+                                    <asp:ListItem>26</asp:ListItem>
+                                    <asp:ListItem>27</asp:ListItem>
+                                    <asp:ListItem>28</asp:ListItem>
+                                    <asp:ListItem>29</asp:ListItem>
+                                    <asp:ListItem>30</asp:ListItem>
+                                    <asp:ListItem>31</asp:ListItem>
+                                    <asp:ListItem>32</asp:ListItem>
+                                    <asp:ListItem>33</asp:ListItem>
+                                    <asp:ListItem>34</asp:ListItem>
+                                    <asp:ListItem>35</asp:ListItem>
+                                    <asp:ListItem>36</asp:ListItem>
+                                    <asp:ListItem>37</asp:ListItem>
+                                    <asp:ListItem>38</asp:ListItem>
+                                    <asp:ListItem>39</asp:ListItem>
+                                    <asp:ListItem>40</asp:ListItem>
+                                    <asp:ListItem>41</asp:ListItem>
+                                    <asp:ListItem>42</asp:ListItem>
+                                    <asp:ListItem>43</asp:ListItem>
+                                    <asp:ListItem>44</asp:ListItem>
+                                    <asp:ListItem>45</asp:ListItem>
+                                </asp:DropDownList>-<asp:DropDownList ID="drpageto" runat="server" Width="53px" CssClass="input">
+                                    <asp:ListItem>18</asp:ListItem>
+                                    <asp:ListItem>19</asp:ListItem>
+                                    <asp:ListItem>20</asp:ListItem>
+                                    <asp:ListItem>21</asp:ListItem>
+                                    <asp:ListItem>22</asp:ListItem>
+                                    <asp:ListItem>23</asp:ListItem>
+                                    <asp:ListItem>24</asp:ListItem>
+                                    <asp:ListItem>25</asp:ListItem>
+                                    <asp:ListItem>26</asp:ListItem>
+                                    <asp:ListItem>27</asp:ListItem>
+                                    <asp:ListItem>28</asp:ListItem>
+                                    <asp:ListItem>29</asp:ListItem>
+                                    <asp:ListItem>30</asp:ListItem>
+                                    <asp:ListItem>31</asp:ListItem>
+                                    <asp:ListItem>32</asp:ListItem>
+                                    <asp:ListItem>33</asp:ListItem>
+                                    <asp:ListItem>34</asp:ListItem>
+                                    <asp:ListItem>35</asp:ListItem>
+                                    <asp:ListItem>36</asp:ListItem>
+                                    <asp:ListItem>37</asp:ListItem>
+                                    <asp:ListItem>38</asp:ListItem>
+                                    <asp:ListItem>39</asp:ListItem>
+                                    <asp:ListItem>40</asp:ListItem>
+                                    <asp:ListItem>41</asp:ListItem>
+                                    <asp:ListItem>42</asp:ListItem>
+                                    <asp:ListItem>43</asp:ListItem>
+                                    <asp:ListItem>44</asp:ListItem>
+                                    <asp:ListItem>45</asp:ListItem>
+                                    <asp:ListItem>46</asp:ListItem>
+                                    <asp:ListItem>47</asp:ListItem>
+                                    <asp:ListItem>48</asp:ListItem>
+                                    <asp:ListItem>49</asp:ListItem>
+                                    <asp:ListItem>50</asp:ListItem>
+                                    <asp:ListItem>51</asp:ListItem>
+                                    <asp:ListItem>52</asp:ListItem>
+                                    <asp:ListItem>53</asp:ListItem>
+                                    <asp:ListItem>54</asp:ListItem>
+                                    <asp:ListItem>55</asp:ListItem>
+                                </asp:DropDownList></td>
+                        <td class="form-txt" style="width: 72px">
+                            Location</td>
+                        <td style="width: 100px">
+                                <asp:DropDownList ID="drplocation" runat="server" Width="110px" CssClass="input">
+                                    <asp:ListItem>ALL</asp:ListItem>
+                                    <asp:ListItem>Ahmedabad</asp:ListItem>
+                                    <asp:ListItem>Anand</asp:ListItem>
+                                    <asp:ListItem>Bharuch</asp:ListItem>
+                                    <asp:ListItem>Bhavnagar</asp:ListItem>
+                                    <asp:ListItem>Bhuj</asp:ListItem>
+                                    <asp:ListItem>Gandhinagar</asp:ListItem>
+                                    <asp:ListItem>Godhra</asp:ListItem>
+                                    <asp:ListItem>Himmatnagar</asp:ListItem>
+                                    <asp:ListItem>Jamnagar</asp:ListItem>
+                                    <asp:ListItem>Modasa</asp:ListItem>
+                                    <asp:ListItem>Mehsana</asp:ListItem>
+                                    <asp:ListItem>Patan</asp:ListItem>
+                                    <asp:ListItem>Rajkot</asp:ListItem>
+                                    <asp:ListItem>Surat</asp:ListItem>
+                                    <asp:ListItem>Vadodara</asp:ListItem>   
+                                    <asp:ListItem>Vijaynagar</asp:ListItem>
+                                </asp:DropDownList></td>
+                    </tr>
+                    <tr>
+                        <td style="height: 26px;" colspan="2">
+                                <asp:Label ID="lblsearcherror" runat="server" CssClass="form-txt"></asp:Label></td>
+                        <td style="width: 72px; height: 26px;">
+                                </td>
+                        <td style="width: 100px; height: 26px;">
+                                <asp:Button ID="btnsearch" runat="server" CausesValidation="False"                                     Text="Search" CssClass="btn" OnClick="btnsearch_Click" /></td>
+                    </tr>
+                </table>
+            </td>
+          </tr>
+
+          <tr>
+            <td><table width="707" border="0" align="right" cellpadding="0" cellspacing="0">
+          <tr>
+            <td valign="top"><table border="0" cellspacing="0" cellpadding="0" style="width: 703px">
+              <tr>
+                <td><asp:Label ID="lblstatus" runat="server" ForeColor="#004000" Visible="False"></asp:Label></td>
+                  </tr>
+                  <tr>
+                    <td height="19"><table style="width: 700px">
+                            <tr>
+                                <td style="width: 422px">
+                                    &nbsp; &nbsp;
+                                    <asp:Label ID="lblstatusmsg" runat="server" CssClass="inputt" Font-Size="Large"
+                                        Width="448px"></asp:Label></td>
+                                <td style="width: 100px">
+                                    <asp:ImageButton ID="ImageButton1" runat="server" ImageUrl="~/img/upgd.gif" 
+                                        OnClick="ImageButton1_Click" Visible="False"  /></td>
+                            </tr>
+                            <tr>
+                                <td class="box-head" colspan="2" style="text-align: left; height: 30px;">
+                                   <%-- <asp:Label ID="lblfill" runat="server" Text="Complete your registration to fill up the detail of " Width="368px" CssClass="inputt"></asp:Label>
+                                    <asp:LinkButton ID="LinkButton1" runat="server" OnClick="LinkButton1_Click" CausesValidation="False" ForeColor="#004000">Personal</asp:LinkButton>
+                                    <asp:LinkButton ID="LinkButton2" runat="server" OnClick="LinkButton2_Click" CausesValidation="False" ForeColor="#004000">Educational</asp:LinkButton>
+                                    <asp:LinkButton ID="LinkButton3" runat="server" OnClick="LinkButton3_Click" CausesValidation="False" ForeColor="#004000">Other </asp:LinkButton>--%>
+                                    <marquee behavior=alternate scrollamount=3>  <asp:Label ID="lblnew" runat="server" CssClass="inputt" Visible="false"></asp:Label></marquee></td>
+                            </tr>
+                        </table>
+                        &nbsp;
+                        <asp:MultiView ID="MultiView1" runat="server">
+                            <asp:View ID="View1" runat="server">
+                                <table style="width: 688px">
+                                    <tr>
+                                        <td style="width: 100px">
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="inputt" style="width: 100px">
+                                            <span style="font-size: 12pt"><strong>We have Already Received Your Account Upgrad Request
+                                                on</strong></span>
+                                            <asp:Label ID="lbldate" runat="server" Font-Bold="True" ForeColor="#004000"></asp:Label>&nbsp;</td>
+                                    </tr>
+                                    <tr>
+                                        <td style="width: 100px">
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="inputt" style="width: 100px; height: 18px">
+                                            <strong><span style="font-size: 12pt">If you wish to change your Account Plan</span></strong>&nbsp;
+                                            <asp:HyperLink ID="HyperLink4" runat="server" Font-Bold="True" Font-Size="14pt" ForeColor="#004000"
+                                                NavigateUrl="~/UpgrageAccount.aspx">Change Plan  !!</asp:HyperLink>&nbsp;
+                                        </td>
+                                    </tr>
+                                </table>
+                            </asp:View>
+                        </asp:MultiView></td>
+                  </tr>
+                  <tr>
+                    <td align="center">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+            </td>
+                  </tr>
+                </table></td>
+              </tr>
+            </table></td>
+          </tr>
+          <tr>
+            <td valign="top" style="text-align: center">
+            </td>
+                  </tr>
+                </table></td>
+              </tr>
+            </table></td>
+          </tr>
+          <tr>
+            <td valign="top" style="text-align: center">Free Matrimonial Site.</td>
+          </tr>
+        </table><table width="923" border="0" align="center" cellpadding="0" cellspacing="0">
+      <tr>
+        <td height="35" bgcolor="#C6C6C6"><table border="0" align="center" cellpadding="0" cellspacing="0">
+    @meeramatrimonial.com 2017. All Rights Reserved</td>
+      </tr>
+    </table>
+    </form>
+</body>
+</html>

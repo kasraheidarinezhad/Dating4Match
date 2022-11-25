@@ -1,0 +1,87 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Admin.master.cs" Inherits="Admin" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <title>Untitled Page</title>
+  <link href="../CSS/style.css" rel="stylesheet" type="text/css" />
+
+
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div style="text-align: center">
+        &nbsp;
+        <table style="z-index: 100; left: 14px; width: 1139px; position: absolute; top: 15px; text-align: center;">
+            <tr>
+                <td style="width: 96px">
+                </td>
+                <td style="width: 100px; text-align: center;" class="name">
+                    <span style="font-family: Algerian"><span style="font-size: 48pt">S</span><span style="font-size: 32pt">K</span><span
+                        style="font-size: 48pt">V</span><span style="font-size: 32pt">ivah.</span><span style="font-size: 20pt">com</span></span></td>
+                <td style="width: 100px">
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 96px">
+                </td>
+                <td style="width: 100px; text-align: center;">
+                    <span style="font-size: 16pt">&nbsp;WelCome to Administrative Panel</span></td>
+                <td style="width: 100px">
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 96px">
+                </td>
+                <td style="width: 100px; text-align: center">
+                </td>
+                <td style="width: 100px">
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 96px; height: 18px">
+                </td>
+                <td colspan="2" style="height: 18px; text-align: center">
+                    <table>
+                        <tr>
+                            <td style="width: 100px">
+                                <asp:Button ID="Button1" runat="server" BackColor="#E0E0E0" Font-Bold="False" Font-Names="Arial Rounded MT Bold"
+                                    Font-Size="Medium" Height="34px" OnClick="Button1_Click" Text="ADD ADMIN" CausesValidation="False" /></td>
+                            <td style="width: 100px">
+                                <asp:Button ID="Button2" runat="server" BackColor="#E0E0E0" Font-Bold="False" Font-Names="Arial Rounded MT Bold"
+                                    Font-Size="Medium" Height="34px" OnClick="Button2_Click" Text="USER Accounts" CausesValidation="False" /></td>
+                            <td style="width: 100px">
+                                <asp:Button ID="Button4" runat="server" BackColor="#E0E0E0" Font-Bold="False" Font-Names="Arial Rounded MT Bold"
+                                    Font-Size="Medium" Height="34px" OnClick="Button4_Click" Text="ACTIVE Plan" CausesValidation="False" /></td>
+                            <td style="width: 100px">
+                                <asp:Button ID="Button6" runat="server" BackColor="#E0E0E0" Font-Bold="False" Font-Names="Arial Rounded MT Bold"
+                                    Font-Size="Medium" Height="34px" OnClick="Button6_Click" Text="REPORTS" CausesValidation="False" /></td>
+                            <td colspan="3">
+                                <asp:Button ID="Button3" runat="server" BackColor="#E0E0E0" Font-Bold="False" Font-Names="Arial Rounded MT Bold"
+                                    Font-Size="Medium" Height="34px" OnClick="Button3_Click" Text="PASSWORD" CausesValidation="False" /></td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 96px; height: 18px">
+                </td>
+                <td style="width: 100px; height: 18px; text-align: center">
+                </td>
+                <td style="width: 100px; height: 18px">
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 96px; height: 322px;">
+                </td>
+                <td style="height: 322px; text-align: center;" colspan="2" valign="top">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+                </td>
+            </tr>
+        </table>
+        &nbsp;</div>
+    </form>
+</body>
+</html>
