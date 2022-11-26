@@ -26,9 +26,13 @@
 
 
 **Project Title :**	Dating4Match
+
 **Abstract :**  The Dating4Match is an online platform to help people to find their life partner
+
 **Project Type :**	Website
+
 **Technology :**	Microsoft ASP.Net Visual Studio with C# 
+
 **Database :**  SQL-Server 2019
 
 ## Project details:
