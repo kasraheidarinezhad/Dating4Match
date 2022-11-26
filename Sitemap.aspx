@@ -25,7 +25,7 @@
     <table style="width: 584px">
         <tr>
             <td class="map">
-                Meera Matromonial Website</td>
+                Dating4Match Website</td>
         </tr>
         <tr>
             <td >
@@ -39,7 +39,7 @@
         </tr>
         <tr>
             <td class="map">
-                Meera Matromonial - My Account</td>
+                Dating4Match - My Account</td>
         </tr>
         <tr>
             <td >
@@ -85,7 +85,7 @@
         </tr>
         <tr>
             <td class="map" >
-                Meera Matromonial - Search Partner Profile</td>
+                Dating4Match - Search Partner Profile</td>
         </tr>
         <tr>
             <td >
