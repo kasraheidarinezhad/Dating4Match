@@ -138,7 +138,7 @@
                                 <td bgcolor="" style="width: 813px; height: 26px; text-align: left;">
                                     <span class="inputt" style="font-size: 14pt">Currently you are registred as
                                         <asp:Label ID="lblpname" runat="server"></asp:Label>
-                                        &nbsp;member of meeramatrimonial.</span></td>
+                                        &nbsp;member of Dating4Match.</span></td>
                                 <td style="font-size: 9.7pt; color: #3f3f3f; font-family: Arial; height: 26px">
                                 </td>
                             </tr>

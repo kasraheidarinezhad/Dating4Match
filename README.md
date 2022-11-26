@@ -56,7 +56,7 @@ Visitor is also a member of Dating4Match website, but there are some restriction
 
 ### Some suggestions to improvement Dating4Match
 
-Here we provide some suggestions to improve of customize Dating4Match portal:
+Here we provide some suggestions to improve and customize Dating4Match portal:
 
 1-	Add new functionality such as: block/unblock member, delete chat and delete account to member activities.
 

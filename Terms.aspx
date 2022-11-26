@@ -18,31 +18,31 @@
         <tr>
             <td colspan="3">
                 <p style="text-align: justify">
-                    Welcome to meeramatrimonial.com. In order to use the meeramatrimonial.com Site, you must register
+                    Welcome to Dating4Match.com. In order to use the Dating4Match.com Site, you must register
                     as a member or visitor of the Site. The Member/Visitor or any users using the Site agree to be bound
                     by these Terms of Use. If you wish to become a Member and communicate with other
-                    Members and make use of the meeramatrimonial.com service, you acknowledge that
+                    Members and make use of the Dating4Match.com service, you acknowledge that
                     you have read, understood and agree to be bound by these terms of use.If you do
                     not agree to all of these terms, Please, Do not use this website. 
-                    This Agreement may be modified by meeramatrimonial.com from time to time.</p>
+                    This Agreement may be modified by Dating4Match.com from time to time.</p>
                 <ul>
                     <li class="padd510 txt-justify" style="text-align: justify"><strong></strong>To register as a member of 
-                        meeramatrimonial.com or use this Website, you must be of legal marriageable age as per the laws of India.</li>
+                        Dating4Match.com or use this Website, you must be of legal marriageable age as per the laws of India.</li>
                 </ul>
                 <ul>
                     <li class="padd510 txt-justify" style="text-align: justify">The minimum age for registering
-                        in meeramatrimonial is 18 years for women and 21 years for men and the maximum age limit
+                        in Dating4Match is 18 years for women and 21 years for men and the maximum age limit
                         is 70 years.</li>
                 </ul>
                 <ul>
-                    <li class="padd510 txt-justify" style="text-align: justify">The meeramatrimonial.com Site
+                    <li class="padd510 txt-justify" style="text-align: justify">The Dating4Match.com Site
                         is only to facilitate lawful marriages between persons who are legally competent
                         to enter into matrimony under the laws to which they are subject</li>
                 </ul>
                 <div class="paddl10">
                     <ul>
-                        <li class="sq-arrow" style="text-align: justify">After becoming a member of meeramatrimonial
-                            if we found any discrimini of these terms meeramatrimonial.com may terminate your membership
+                        <li class="sq-arrow" style="text-align: justify">After becoming a member of Dating4Match
+                            if we found any discrimini of these terms Dating4Match.com may terminate your membership
                             with or without sending notice to you.</li>
                     </ul>
                 </div>
@@ -55,7 +55,7 @@
                     <li style="text-align: justify">Multiple profiles of the same person are not allowed on our Website.<br />
                         <br />
                     </li>
-                    <li style="text-align: justify">meeramatrimonial reserves the all the right to screen messages
+                    <li style="text-align: justify">Dating4Match reserves the all the right to screen messages
                         that you may send to other Members without prior
                             notice to any Member.<br />
                             <br />
@@ -67,7 +67,7 @@
                     <br />
                     <br />
                     <br />
-                    By becoming a member of meeramatrimonial.com, you unconditionally
+                    By becoming a member of Dating4Match.com, you unconditionally
                     and irrevocably confirm that you have read the above provisions and agree to abide
                     by them.<br />
                     <br />

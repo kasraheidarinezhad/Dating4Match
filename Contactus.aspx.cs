@@ -21,7 +21,7 @@ public partial class Contactus : System.Web.UI.Page
         MailMessage message = new MailMessage();
         MailAddress fromAddress = new MailAddress("sample@gmail.com", txtname.Text);
         message.From = fromAddress;
-        message.To.Add("contact@meeramatrimonial.com");
+        message.To.Add("contact@Dating4Match.com");
 
         message.Subject = "Contact us";
         message.IsBodyHtml = false;

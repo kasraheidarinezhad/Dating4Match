@@ -219,11 +219,6 @@
                             <asp:ListItem>Christian - Orthodox</asp:ListItem>
                             <asp:ListItem>Christian - Protestant</asp:ListItem>
                             <asp:ListItem>Christian - Others</asp:ListItem>
-                            <asp:ListItem>Sikh</asp:ListItem>
-                            <asp:ListItem>Jain - Digambar</asp:ListItem>
-                            <asp:ListItem>Jain - Shwetambar</asp:ListItem>
-                            <asp:ListItem>Jain - Others</asp:ListItem>
-                            <asp:ListItem>Parsi</asp:ListItem>
                             <asp:ListItem>Buddhist</asp:ListItem>
                             <asp:ListItem>Inter-Religion</asp:ListItem>
                             <asp:ListItem>No Religious</asp:ListItem>
@@ -371,22 +366,11 @@
                     <td align="left" style="width: 100px">
                         <asp:DropDownList ID="drpCity" runat="server" Width="118px" CssClass="inputt">
                             <asp:ListItem>SELECT</asp:ListItem>
-                                    <asp:ListItem>Ahmedabad</asp:ListItem>
-                                    <asp:ListItem>Anand</asp:ListItem>
-                                    <asp:ListItem>Bharuch</asp:ListItem>
-                                    <asp:ListItem>Bhavnagar</asp:ListItem>
-                                    <asp:ListItem>Bhuj</asp:ListItem>
-                                    <asp:ListItem>Gandhinagar</asp:ListItem>
-                                    <asp:ListItem>Godhra</asp:ListItem>
-                                    <asp:ListItem>Himmatnagar</asp:ListItem>
-                                    <asp:ListItem>Jamnagar</asp:ListItem>
-                                    <asp:ListItem>Modasa</asp:ListItem>
-                                    <asp:ListItem>Mehsana</asp:ListItem>
-                                    <asp:ListItem>Patan</asp:ListItem>
-                                    <asp:ListItem>Rajkot</asp:ListItem>
-                                    <asp:ListItem>Surat</asp:ListItem>
-                                    <asp:ListItem>Vadodara</asp:ListItem>   
-                                    <asp:ListItem>Vijaynagar</asp:ListItem>
+                                <asp:ListItem>Abbotsford</asp:ListItem>
+                                <asp:ListItem>Burnaby</asp:ListItem>
+                                <asp:ListItem>Chilliwack</asp:ListItem>
+                                <asp:ListItem>Coquitlam</asp:ListItem>
+                                <asp:ListItem>Vancouver</asp:ListItem>
                         </asp:DropDownList></td>
                     <td align="left" style="width: 100px">
                         <asp:Label ID="lblcity" runat="server" ForeColor="Red"></asp:Label></td>
@@ -395,7 +379,7 @@
                     <td align="left" style="width: 100px">
                         State</td>
                     <td align="left" style="width: 100px">
-                        <asp:TextBox ID="txtdist" runat="server" ReadOnly="True" CssClass="inputt">GUJARAT</asp:TextBox></td>
+                        <asp:TextBox ID="txtdist" runat="server" ReadOnly="True" CssClass="inputt">Temple</asp:TextBox></td>
                     <td align="left" style="width: 100px">
                     </td>
                 </tr>
@@ -626,22 +610,11 @@
                         <asp:DropDownList ID="drplocation" runat="server" Width="118px" CssClass="inputt">
                             <asp:ListItem>SELECT</asp:ListItem>
                             <asp:ListItem>ALL</asp:ListItem>
-                            <asp:ListItem>Ahmedabad</asp:ListItem>
-                                    <asp:ListItem>Anand</asp:ListItem>
-                                    <asp:ListItem>Bharuch</asp:ListItem>
-                                    <asp:ListItem>Bhavnagar</asp:ListItem>
-                                    <asp:ListItem>Bhuj</asp:ListItem>
-                                    <asp:ListItem>Gandhinagar</asp:ListItem>
-                                    <asp:ListItem>Godhra</asp:ListItem>
-                                    <asp:ListItem>Himmatnagar</asp:ListItem>
-                                    <asp:ListItem>Jamnagar</asp:ListItem>
-                                    <asp:ListItem>Modasa</asp:ListItem>
-                                    <asp:ListItem>Mehsana</asp:ListItem>
-                                    <asp:ListItem>Patan</asp:ListItem>
-                                    <asp:ListItem>Rajkot</asp:ListItem>
-                                    <asp:ListItem>Surat</asp:ListItem>
-                                    <asp:ListItem>Vadodara</asp:ListItem>   
-                                    <asp:ListItem>Vijaynagar</asp:ListItem>
+                                <asp:ListItem>Abbotsford</asp:ListItem>
+                                <asp:ListItem>Burnaby</asp:ListItem>
+                                <asp:ListItem>Chilliwack</asp:ListItem>
+                                <asp:ListItem>Coquitlam</asp:ListItem>
+                                <asp:ListItem>Vancouver</asp:ListItem>
                         </asp:DropDownList></td>
                     <td align="left" style="width: 100px">
                         <asp:Label ID="lbllocation" runat="server" ForeColor="Red"></asp:Label></td>
