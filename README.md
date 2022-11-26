@@ -1,5 +1,5 @@
-[![Contributors](https://img.shields.io/badge/all_contributors-54-orange.svg?style=flat-square)](#contributors-)
-![GitHub forks] (https://img.shields.io/github/forks/kasraheidarinezhad/Dating4Match?style=social)
+![Contributors](https://img.shields.io/badge/all_contributors-54-orange.svg?style=flat-square)](#contributors-)
+![GitHub forks](https://img.shields.io/github/forks/kasraheidarinezhad/Dating4Match?style=social)
 ![LinkedIn](https://img.shields.io/badge/LinkedIn-LinkedIn-brightgreen)
 
 
@@ -25,11 +25,11 @@
 </div>
 
 
-** Project Title : **	Dating4Match
-Abstract :      	The Dating4Match is an online platform to help people to find their life partner
-Project Type :	Website
-Technology :	Microsoft ASP.Net Visual Studio with C# 
-Database :      	SQL-Server 2019
+**Project Title :**	Dating4Match
+**Abstract :**  The Dating4Match is an online platform to help people to find their life partner
+**Project Type :**	Website
+**Technology :**	Microsoft ASP.Net Visual Studio with C# 
+**Database :**  SQL-Server 2019
 
 ## Project details:
 This dating project is a web based application developed in asp.net with C# language using SQL server 2019 database. The Dating4Match website is online platform that works as matrimony broker to help people both men/woman to find life partner by their choice. 
