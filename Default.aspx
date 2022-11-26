@@ -29,7 +29,7 @@
                     <tr>
                         <td class="inputt" style="color: darkgreen; text-align: left" valign="top">
                             &nbsp; &nbsp; &nbsp;
-                            <asp:ImageButton ID="ImageButton1" runat="server" ImageUrl="~/img/skvivah_regi.gif" PostBackUrl="~/Registration.aspx" AlternateText="Free Matrimonial Site" /></td>
+                            <asp:ImageButton ID="ImageButton1" runat="server" ImageUrl="~/img/reg.gif" PostBackUrl="~/Registration.aspx" AlternateText="Free Matrimonial Site" /></td>
                     </tr>
                     <tr>
                         <td class="inputt" style="color: darkgreen; text-align: left;">
