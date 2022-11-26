@@ -1,4 +1,4 @@
-![Contributors](https://img.shields.io/badge/all_contributors-54-orange.svg?style=flat-square)](#contributors-)
+![Contributors](https://img.shields.io/badge/all_contributors-54-orange.svg?style=flat-square)
 ![GitHub forks](https://img.shields.io/github/forks/kasraheidarinezhad/Dating4Match?style=social)
 ![LinkedIn](https://img.shields.io/badge/LinkedIn-LinkedIn-brightgreen)
 
@@ -52,8 +52,11 @@ Visitor is also a member of Dating4Match website, but there are some restriction
 Here we provide some suggestions to improve of customize Dating4Match portal:
 
 1-	Add new functionality such as: block/unblock member, delete chat and delete account to member activities.
+
 2-	Add location-based data to member information to get filtered matches based on geographical distance.
+
 3-	To make a commercial dating site, it id s possible enhance, for example Ads section to main page or add subscription fee for premium members.
+
 4-	Change Dating4Match to be a responsive website. Read here about responsive websites.
 
 ### Note:
