@@ -6,7 +6,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/kasraheidarinezhad/Dating4Match/blob/master/img/Dating4Match.png">
-    <img src="img/Dating4Match.png" alt="Logo" width="230" height="140">
+    <img src="img/Dating4Match.png" alt="Logo" width="300" height="240">
   </a>
 
   <h3 align="center">Dating4Match</h3>
