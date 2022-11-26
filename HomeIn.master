@@ -4,7 +4,7 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml" >
 <head runat="server">
-    <title> Free Matrimonial Site</title>
+    <title> Welcome to Dating4Match</title>
         <meta content='Free Matrimonial site' name='description'/>
 <meta content='Free Matrimonial Site' name='keywords'/>
     <link href="CSS/style.css" rel="stylesheet" type="text/css" />  
@@ -301,22 +301,10 @@
                         <td style="width: 100px">
                                 <asp:DropDownList ID="drplocation" runat="server" Width="110px" CssClass="input">
                                     <asp:ListItem>ALL</asp:ListItem>
-                                    <asp:ListItem>Ahmedabad</asp:ListItem>
-                                    <asp:ListItem>Anand</asp:ListItem>
-                                    <asp:ListItem>Bharuch</asp:ListItem>
-                                    <asp:ListItem>Bhavnagar</asp:ListItem>
-                                    <asp:ListItem>Bhuj</asp:ListItem>
-                                    <asp:ListItem>Gandhinagar</asp:ListItem>
-                                    <asp:ListItem>Godhra</asp:ListItem>
-                                    <asp:ListItem>Himmatnagar</asp:ListItem>
-                                    <asp:ListItem>Jamnagar</asp:ListItem>
-                                    <asp:ListItem>Modasa</asp:ListItem>
-                                    <asp:ListItem>Mehsana</asp:ListItem>
-                                    <asp:ListItem>Patan</asp:ListItem>
-                                    <asp:ListItem>Rajkot</asp:ListItem>
-                                    <asp:ListItem>Surat</asp:ListItem>
-                                    <asp:ListItem>Vadodara</asp:ListItem>   
-                                    <asp:ListItem>Vijaynagar</asp:ListItem>
+                                    <asp:ListItem>Vancouver</asp:ListItem>
+                                    <asp:ListItem>Richmond</asp:ListItem>
+                                    <asp:ListItem>North Van</asp:ListItem>
+                                    <asp:ListItem>West Van</asp:ListItem>
                                 </asp:DropDownList></td>
                     </tr>
                     <tr>
@@ -325,7 +313,7 @@
                         <td style="width: 72px; height: 26px;">
                                 </td>
                         <td style="width: 100px; height: 26px;">
-                                <asp:Button ID="btnsearch" runat="server" CausesValidation="False"                                     Text="Search" CssClass="btn" OnClick="btnsearch_Click" /></td>
+                                <asp:Button ID="btnsearch" runat="server" CausesValidation="False" Text="Search" CssClass="btn" OnClick="btnsearch_Click" /></td>
                     </tr>
                 </table>
             </td>
@@ -411,7 +399,7 @@
         </table><table width="923" border="0" align="center" cellpadding="0" cellspacing="0">
       <tr>
         <td height="35" bgcolor="#C6C6C6"><table border="0" align="center" cellpadding="0" cellspacing="0">
-    @meeramatrimonial.com 2017. All Rights Reserved</td>
+    @Dating4Match.com 2022. All Rights Reserved</td>
       </tr>
     </table>
     </form>
