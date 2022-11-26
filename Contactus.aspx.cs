@@ -19,7 +19,7 @@ public partial class Contactus : System.Web.UI.Page
     protected void btncontactus_Click(object sender, EventArgs e)
     {
         MailMessage message = new MailMessage();
-        MailAddress fromAddress = new MailAddress("meeramatrimonial@yahoo.in", txtname.Text);
+        MailAddress fromAddress = new MailAddress("sample@gmail.com", txtname.Text);
         message.From = fromAddress;
         message.To.Add("contact@meeramatrimonial.com");
 
@@ -31,7 +31,7 @@ public partial class Contactus : System.Web.UI.Page
         SmtpClient sc = new SmtpClient();
         sc.Host = "smtp.gmail.com";
         sc.Port = 587;
-        sc.Credentials = new System.Net.NetworkCredential("demo78910@gmail.com", "12345678910");
+        sc.Credentials = new System.Net.NetworkCredential("test@gmail.com", "1223334445");
         sc.EnableSsl = true;
         sc.DeliveryMethod = SmtpDeliveryMethod.Network;
         sc.Send(message);

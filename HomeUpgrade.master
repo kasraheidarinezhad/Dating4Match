@@ -17,7 +17,7 @@
                 <td style="width: 3px; height: 46px;" class="name"  >
                     <span style="font-size: 32pt; font-family: Algerian"><span style="font-size: 48pt">S</span>K.<span style="font-size: 20pt">com</span></span></td>
                 <td style="width: 634px; height: 46px;" align="left" valign="bottom" >
-                    Get the Perfect Groom / Bride from Sabarkanth.</td>
+                    Get the Perfect Groom / Bride from Testing.</td>
                 <td align="center" style="width: 634px; height: 46px; text-align: right;" valign="top">
                     <asp:Image ID="Image1" runat="server" ImageUrl="~/img/hand1.jpg" Width="121px" /></td>
             </tr>
@@ -121,7 +121,7 @@
 			    <td height="20" class="cat-head">All Categories</td>
 		      </tr>
 			  <tr>
-                <td class="leftlinks" style="height: 25px"><a href="http://www.templatesperfect.com" target="_blank">» Category Name</a></td>
+                <td class="leftlinks" style="height: 25px"><a href="http://www.templatesperfect.com" target="_blank">ï¿½ Category Name</a></td>
               </tr>
             <tr>
                 <td class="leftlinks" style="height: 25px">
@@ -258,22 +258,14 @@
                         <td style="width: 100px">
                             <asp:DropDownList ID="drplocation" runat="server" CssClass="input" Width="110px">
                                 <asp:ListItem>ALL</asp:ListItem>
-                                <asp:ListItem>Bayad</asp:ListItem>
-                                <asp:ListItem>Bhiloda</asp:ListItem>
-                                <asp:ListItem>Dhansura</asp:ListItem>
-                                <asp:ListItem>Himatnage</asp:ListItem>
-                                <asp:ListItem>Ider</asp:ListItem>
-                                <asp:ListItem>Khedbramha</asp:ListItem>
-                                <asp:ListItem>Malpur</asp:ListItem>
-                                <asp:ListItem>Meghraj</asp:ListItem>
-                                <asp:ListItem>Modasa</asp:ListItem>
-                                <asp:ListItem>Prantij</asp:ListItem>
-                                <asp:ListItem>Talod</asp:ListItem>
-                                <asp:ListItem>Vadali</asp:ListItem>
-                                <asp:ListItem>Vijaynagar</asp:ListItem>
+                                <asp:ListItem>Abbotsford</asp:ListItem>
+                                <asp:ListItem>Burnaby</asp:ListItem>
+                                <asp:ListItem>Chilliwack</asp:ListItem>
+                                <asp:ListItem>Coquitlam</asp:ListItem>
+                                <asp:ListItem>Vancouver</asp:ListItem>
                             </asp:DropDownList></td>
                         <td class="form-txt" style="width: 100px">
-                            Mangal</td>
+                            Type</td>
                         <td style="width: 100px">
                             <asp:DropDownList ID="DropDownList2" runat="server" CssClass="input">
                                 <asp:ListItem Value="FEMALE">Bride</asp:ListItem>
@@ -319,7 +311,7 @@
                   </tr>
                   <tr>
                     <td class="box-head">
-                        MATCH PERFECT GROOM / BRIDE FROM SABARKANTH</td>
+                        MATCH PERFECT GROOM / BRIDE FROM Dating4Match</td>
                   </tr>
                   <tr>
                     <td height="19">&nbsp;</td>
@@ -361,7 +353,7 @@
     </table></td>
       </tr>
       <tr>
-       <td height="28" align="center">Designed by</td>
+       <td height="28" align="center">Designed by Kasra</td>
       </tr>
     </table></td>
   </tr>
